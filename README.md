@@ -1,8 +1,14 @@
 # intro-to-beamer
 These are introductory materials for using LaTeX and Beamer. Created for HHMI 2015, but feel free to use them as needed. 
 
+## What is this about:
+
+LaTeX is a formatting language for papers and slides. It allows you to set up math formulas, reference figures and sections in a way that would renumber them with any changes or additions, would allow you to easily chagne the style, and more. The resulting papers and slides are PDF format, so they are platform-independent (no more worries about your slides suddenly looking very different on a PC if you developed them on a Mac). 
+
 ## What you need:
 
+1. Install MiKTeX: [http://miktex.org/download](http://miktex.org/download). There are other distributions of TeX, but this one works better with the Texmaker. Make sure to installl MiKTeX first. You may need to look up whether your system is 32-bit or 64-bit (on Windows: Control Panel -> System). Also make sure to specify *letter* paper as your default (unless you are planning to work in Europe). 
+2. Install Texmaker: [http://www.xm1math.net/texmaker/download.html](http://www.xm1math.net/texmaker/download.html). 
 
 ## Resources:
 
