@@ -7,8 +7,8 @@
 %%%% choose your presentation style:
 \mode<presentation>
 {
-  \usetheme{Warsaw} %%%
- \usecolortheme{dove}
+  \usetheme{Copenhagen} %%%
+ \usecolortheme{beaver}
 
 %%% set style for ovelays: lists (and other text) appearing one item at a time
 %%% This will create a dimmed preview of next item:
@@ -46,7 +46,7 @@
 \subsection{Math formulas}
 
 \begin{frame}
-  \frametitle{Just some text}
+  \frametitle{Text, fonts, and formulas}
 Here is some text on my slide. 
 
 If I want, I can set up some formulas:
@@ -54,10 +54,12 @@ $$
 E = mc^2.
 $$
 
-They can get more complicated:
+This is \alert{important}:
 \[
 e = \lim_{n \to \infty} {\left( 1 + \frac{1}{n} \right)}^n
 \]
+
+You can also use \textbf{boldface} and \textit{italics}. 
 \end{frame}
 
 \subsection{Simple lists}
@@ -94,6 +96,45 @@ Here we can see halo.
 
 \section{Making items appear one by one}
 
+\begin{frame}
+  \frametitle{Simple overlays}
+\begin{itemize}
+\item First item 
+\pause
+\item Second item
+\pause
+\item Third item
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{More control over when items appear}
+\begin{itemize}
+\item <1-> First slide
+\item <3> Third slide
+\item <2>Second slide only
+\item <1->Also first slide
+\end{itemize}
+\end{frame}
+
+\section{showing program code}
+
+%%% If you are including verbatim text, make the frame fragile
+\begin{frame}[fragile]
+\frametitle{Including text verbatim}
+Typically you include porgram code verbatim:
+\begin{verbatim}
+(defn get-match-name [fname]
+  "extract a function name from a qualified name"
+  (let [m (nth (re-matches #"(.*)\$(.*)" fname) 2)
+        matched (if m m (nth (re-matches #"(.*)/(.*)" 
+            fname) 2))]
+    (if matched
+      (check-if-anonymous-function 
+           (lookup-funct-name matched))
+      fname)))
+\end{verbatim}
+\end{frame}
 
 \begin{frame}
   \frametitle{Discussion}
