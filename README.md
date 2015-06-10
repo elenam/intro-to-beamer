@@ -12,3 +12,8 @@ LaTeX is a formatting language for papers and slides. It allows you to set up ma
 
 ## Resources:
 
+- Beamer themes matrix: [https://www.hartwork.org/beamer-theme-matrix/](https://www.hartwork.org/beamer-theme-matrix/)
+- A guide to Bemaer, in Beamer: [http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf](http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf).
+- Beamer user guide: [http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf](http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+- Formatting math in LaTeX and in Beamer: [http://en.wikibooks.org/wiki/LaTeX/Mathematics](http://en.wikibooks.org/wiki/LaTeX/Mathematics)
+
